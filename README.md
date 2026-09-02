@@ -131,7 +131,6 @@ Therefore, the minimum total cable installation cost is: ₹15
 -> Calculate the total cost of the selected edges.
 
 # Python Implementation
-# Python Implementation
 
 ```python
 # Kruskal's Algorithm
