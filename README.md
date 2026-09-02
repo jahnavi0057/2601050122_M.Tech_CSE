@@ -131,9 +131,8 @@ Therefore, the minimum total cable installation cost is: ₹15
 -> Calculate the total cost of the selected edges.
 
 # Python Implementation
-# Kruskal's Algorithm
 
-edges = [
+*** edges = [
     (10, 'A', 'B'),
     (6, 'A', 'C'),
     (5, 'B', 'C'),
@@ -141,7 +140,6 @@ edges = [
     (4, 'C', 'D')
 ]
 
-# Sort edges by cost
 edges.sort()
 
 parent = {
@@ -167,7 +165,7 @@ for cost, a, b in edges:
         total_cost += cost
         print(a, "-", b, ":", cost)
 
-print("Minimum Cost =", total_cost)
+print("Minimum Cost =", total_cost) ***
 
 
 # Output
