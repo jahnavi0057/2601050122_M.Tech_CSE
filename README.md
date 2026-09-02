@@ -1,13 +1,13 @@
-Greedy Algorithm
-3. Network Cable Installation
+**Greedy Algorithm
+3. Network Cable Installation**
 
 A company wants to connect several offices with minimum total cable cost.
 
-Question
+**Question**
 
 Which greedy algorithm could be useful for this problem? Explain the basic idea.
 
-Solution
+**Solution**
 
 For the given scenario, Kruskal's Algorithm is a suitable greedy algorithm.
 
@@ -18,7 +18,7 @@ Basic Idea
 
 Kruskal's Algorithm follows a greedy approach by selecting the cheapest available cable connection at every step.
 
-The algorithm:
+**The algorithm:**
 
 List all possible cable connections with their costs.
 Sort all connections in increasing order of cost.
@@ -28,7 +28,8 @@ If it does not create a cycle, add the cable to the network.
 If it creates a cycle, reject the cable.
 Repeat until all offices are connected.
 Add the costs of the selected cables to get the minimum total cost.
-Example
+
+**Example**
 
 Consider four offices:
 
@@ -101,7 +102,8 @@ Therefore, the minimum total cable installation cost is:
 
 ₹15
 
-Algorithm
+**Algorithm**
+
 Input
 Set of offices (vertices)
 Cable connections (edges)
@@ -115,7 +117,9 @@ If no cycle is formed, add the edge to the MST.
 If a cycle is formed, reject the edge.
 Repeat until V - 1 edges are selected.
 Calculate the total cost of the selected edges.
-Python Implementation
+
+**Python Implementation**
+
 # Kruskal's Algorithm
 
 edges = [
