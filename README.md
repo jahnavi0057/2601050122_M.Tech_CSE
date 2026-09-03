@@ -185,9 +185,11 @@ A - C = 6
 Minimum Cost = 15
 
 # Time Complexity
-Best Case: O(E log E)
-Worst Case: O(E log E)
-Space Complexity: O(V + E)
+**Best Case:** O(E log E)
+
+**Worst Case:** O(E log E)
+
+**Space Complexity**: O(V + E)
 
 Where:
 V = number of offices (vertices)
